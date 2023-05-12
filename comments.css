@@ -28,7 +28,6 @@
 .comment1{
     background-color: blueviolet;
     border-radius: 15px;
-    margin-bottom: 20px;
     margin-right: 20px;
 }
 .comment2{
@@ -117,7 +116,6 @@
     .comment1{
         background-color: blueviolet;
         border-radius: 15px;
-        margin-bottom: 20px;
     }
     .comment2{
         background-color: #444444 ;
@@ -127,7 +125,6 @@
     .comment3{
         background-color: #e6e6e6;
         border-radius: 15px;
-        margin-top: 20px;
     }
     .comment4{
         background-color: #111111;
