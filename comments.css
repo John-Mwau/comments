@@ -28,6 +28,7 @@
 .comment1{
     background-color: blueviolet;
     border-radius: 15px;
+    margin-bottom: 20px;
 }
 .comment2{
     background-color: #444444 ;
@@ -107,5 +108,30 @@
         margin-bottom: 20px;
         align-items: center;
         justify-content: center;
+    }
+    .comment1{
+        background-color: blueviolet;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+    .comment2{
+        background-color: #444444 ;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+    .comment3{
+        background-color: #e6e6e6;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+    .comment4{
+        background-color: #111111;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+    .comment5{
+        background-color: #ffffff;
+        border-radius: 15px;
+        flex:1;
     }
 }
