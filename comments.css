@@ -7,14 +7,14 @@
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    align-items: center;
+    align-items: start;
     justify-content: center;
+    flex: 5;
 }
 .wrapper{
     display:flex;
     flex-direction: column;
     margin-right: 20px;
-    flex: 8;
     align-items: center;
     justify-content: center;
 }
@@ -29,6 +29,7 @@
     background-color: blueviolet;
     border-radius: 15px;
     margin-bottom: 20px;
+    margin-right: 20px;
 }
 .comment2{
     background-color: #444444 ;
@@ -37,6 +38,7 @@
 .comment3{
     background-color: #e6e6e6;
     border-radius: 15px;
+    margin-right: 20px;
 }
 .comment4{
     background-color: #111111;
@@ -45,7 +47,7 @@
 .comment5{
     background-color: #ffffff;
     border-radius: 15px;
-    flex:1;
+    flex: 1;
 }
 .profile{
     display: flex;
@@ -71,6 +73,9 @@
 }
 .comment5 .profile-name p{
     color:black;
+}
+.comment3 .profile-name p{
+    color: black;
 }
 .profile-text{
     margin: 20px;
@@ -117,17 +122,17 @@
     .comment2{
         background-color: #444444 ;
         border-radius: 15px;
-        margin-bottom: 20px;
+        margin-top: 20px;
     }
     .comment3{
         background-color: #e6e6e6;
         border-radius: 15px;
-        margin-bottom: 20px;
+        margin-top: 20px;
     }
     .comment4{
         background-color: #111111;
         border-radius: 15px;
-        margin-bottom: 20px;
+        margin-top: 20px;
     }
     .comment5{
         background-color: #ffffff;
