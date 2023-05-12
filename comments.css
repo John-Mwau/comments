@@ -1,6 +1,9 @@
 *{padding: 0px;
     margin: 0px;
 }
+body{
+    background-color: azure;
+}
 .mainwrapper{
     display: flex;
     flex-direction: row;
@@ -15,14 +18,14 @@
     display:flex;
     flex-direction: column;
     margin-right: 20px;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }
 .wrapper-1{
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }
 .comment1{
@@ -88,7 +91,25 @@
     color: white;
     font-size: 20px;
 }
+.comment3 .profile-text p{
+    color:#111111;
+}
+.comment3 .profile-text h2{
+    color:#111111;
+}
+.comment5 .profile-text h2{
+    color:#111111;
+}
+.comment5 .profile-text p{
+    color:#111111;
+}
 @media screen and (max-width: 600px){
+    *{padding: 0px;
+        margin: 0px;
+    }
+    body{
+        background-color: azure;
+    }
     .mainwrapper{
         display: flex;
         flex-direction: column;
@@ -135,5 +156,84 @@
         background-color: #ffffff;
         border-radius: 15px;
         flex:1;
+    }
+    .comment3 .profile-text p{
+        color:#111111;
+    }
+    .comment3 .profile-text h2{
+        color:#111111;
+    }
+    .comment5 .profile-text h2{
+        color:#111111;
+    }
+    .comment5 .profile-text p{
+        color:#111111;
+    }
+}
+@media screen and (max-width: 1023px){
+    *{padding: 0px;
+        margin: 0px;
+    }
+    body{
+        background-color: azure;
+    }
+    .mainwrapper{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper{
+        display:flex;
+        flex-direction: column;
+        margin-right: 20px;
+        flex: 8;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper-1{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .comment1{
+        background-color: blueviolet;
+        border-radius: 15px;
+    }
+    .comment2{
+        background-color: #444444 ;
+        border-radius: 15px;
+        margin-top: 20px;
+    }
+    .comment3{
+        background-color: #e6e6e6;
+        border-radius: 15px;
+    }
+    .comment4{
+        background-color: #111111;
+        border-radius: 15px;
+        margin-top: 20px;
+    }
+    .comment5{
+        background-color: #ffffff;
+        border-radius: 15px;
+        flex:1;
+    }
+    .comment3 .profile-text p{
+        color:#111111;
+    }
+    .comment3 .profile-text h2{
+        color:#111111;
+    }
+    .comment5 .profile-text h2{
+        color:#111111;
+    }
+    .comment5 .profile-text p{
+        color:#111111;
     }
 }
