@@ -59,10 +59,11 @@ body{
     margin-left: 10px;
 }
 .profile img {
-    clip-path: ellipse();
     margin-right: 10px;
     width: 60px;
     height: 60px;
+    border-radius: 50%;
+    border: 2px solid purple;
 }
 .profile-name{
     margin-left: 20px;
